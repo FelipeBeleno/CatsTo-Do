@@ -1,0 +1,8 @@
+ul {
+    list-style: none;
+}
+
+.gatitosContainer {
+    display: flex;
+    flex-direction: column;
+}

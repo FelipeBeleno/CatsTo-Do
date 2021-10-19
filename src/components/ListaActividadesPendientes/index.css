@@ -1,0 +1,42 @@
+.list {
+    list-style: none;
+    width: auto;
+    height: 70vh;
+    overflow: auto;
+
+}
+
+.list__li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    align-self: center;
+    transition: 0.5s;
+}
+
+.list__title {
+    text-align: center;
+    font-weight: 300;
+}
+
+.list__li__actioncontainer {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.list_li__ok {
+    background: chartreuse;
+}
+
+.list__li__description {
+    max-height: 50px;
+    overflow: hidden;
+    margin: 0px 10px;
+    width: min-content;
+}
+
+.list__li__title {
+    margin: 0px 10px;
+}

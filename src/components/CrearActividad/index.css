@@ -1,0 +1,11 @@
+.form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+.alert-danger{
+    border: none;
+}
